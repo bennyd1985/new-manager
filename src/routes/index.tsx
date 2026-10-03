@@ -25,7 +25,7 @@ function Home() {
         </h1>
         <p className="mt-3 max-w-xl text-muted">
           {stats.done === 0
-            ? "Nothing finished yet. This is the new-manager packet: core values, the everyday menu, order taking, daily procedures, and the recipe book. Work them in order."
+            ? "Nothing finished yet. This is the new-manager packet: core values, the everyday menu, daily procedures, and the recipe book. Work them in order."
             : `${stats.done} of ${stats.lessons} lessons finished. ${stats.quizzesPassed} ${stats.quizzesPassed === 1 ? "quiz" : "quizzes"} passed. ${stats.certificates} ${stats.certificates === 1 ? "certificate" : "certificates"}.`}
         </p>
         <label className="mt-5 block max-w-sm">
