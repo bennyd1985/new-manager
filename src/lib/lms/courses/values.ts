@@ -156,8 +156,7 @@ export const valuesCourse: Course = {
               type: "list",
               items: [
                 "Standards and the law.",
-                "Reports and payments on time.",
-                "Clean books, and a managed shift every day.",
+                "A managed shift every day.",
                 "Share what helps the network.",
                 "Protect the reputation by running to standard.",
               ],
