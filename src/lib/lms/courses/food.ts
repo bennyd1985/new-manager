@@ -96,14 +96,14 @@ export const foodSafetyCourse: Course = {
             },
             {
               type: "p",
-              text: "Fryers are 330°F and 350°F. Dark meat must be fried at 330°F because at 350°F the skin would burn before it was fully cooked. Everything else can be fried at 350°F. Everything except tater tots can also be fried at 330°F with different cook times. Do not invent cook times.",
+              text: "Fryers are 330°F and 350°F. Dark meat must be fried at 330°F because at 350°F the skin would burn before it was fully cooked. Everything else can be fried at 350°F. Everything except tater tots can also be fried at 330°F with different cook times.",
             },
             {
               type: "steps",
               items: [
                 "Sift the dredge.",
                 "Do not overcrowd the frying basket.",
-                "Those are line standards, not a cook-time chart. Do not invent cook times.",
+                "Those are line standards, not a cook-time chart.",
               ],
             },
             {
@@ -272,7 +272,7 @@ export const foodSafetyCourse: Course = {
                 "Choose a fryer temperature and cook time from another kitchen.",
               ],
               0,
-              "Dark meat must be fried at 330°F because at 350°F the skin would burn before it was fully cooked. Everything else can be fried at 350°F. Everything except tater tots can also be fried at 330°F with different cook times; do not invent the cook times.",
+              "Dark meat must be fried at 330°F because at 350°F the skin would burn before it was fully cooked. Everything else can be fried at 350°F. Everything except tater tots can also be fried at 330°F with different cook times.",
             ),
             q(
               "fs-q10",
