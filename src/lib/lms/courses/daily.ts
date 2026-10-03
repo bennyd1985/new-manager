@@ -71,7 +71,6 @@ export const dailyCourse: Course = {
                 "Suggest sides, desserts, and drinks that belong with the meal. Not pressure.",
                 "Pickup: tell the kitchen if it is not bagged. Early means it is still in the fryer. Full name, ticket facing the guest, confirm, farewell.",
                 "Flag bags over 15 minutes, especially delivery.",
-                "Sandwiches go in the bag upright. Drinks go in a separate small bag. Mark every item. Do not overload.",
               ],
             },
             {
@@ -83,8 +82,6 @@ export const dailyCourse: Course = {
               items: [
                 "A real goodbye on the way in and the way out.",
                 "Assign a busser.",
-                "If guests are nearby, spray the towel, not the table.",
-                "Full hands in, full hands out.",
                 "Managers work the floor.",
                 "Do not argue with a guest. Get a manager.",
                 "No swearing.",
@@ -100,7 +97,7 @@ export const dailyCourse: Course = {
       lessons: [
         {
           id: "lh-daily-heat",
-          title: "H.E.A.T., phones, and the fryer",
+          title: "H.E.A.T. and phones",
           minutes: 7,
           kind: "read",
           pass: 80,
@@ -127,19 +124,6 @@ export const dailyCourse: Course = {
                 "Not on the line, not on the clock, not in guest view, not in the restroom.",
                 "A phone in prep or service is a sanitation violation.",
                 "Managers use phones for the business.",
-              ],
-            },
-            {
-              type: "list",
-              items: [
-                "Knock off excess flour.",
-                "Sift.",
-                "Drain the buttermilk, and add water when it thickens.",
-                "Do not press chicken into the dredge.",
-                "No bald spots. That is the cardinal sin.",
-                "Cover or flip wings.",
-                "Wait about two minutes before you shake, then golden brown.",
-                "Nashville is the exception: flour, buttermilk, flour.",
               ],
             },
             {
@@ -174,18 +158,6 @@ export const dailyCourse: Course = {
               type: "p",
               text: "Use the Maintenance Report and the Service Repair and Maintenance Log.",
             },
-            {
-              type: "list",
-              items: [
-                "Grease trap — monthly.",
-                "Hoods — every 4 to 6 months.",
-                "Pest — monthly.",
-                "Fryer, HVAC, and refrigeration PM — quarterly is recommended.",
-                "Coils — monthly.",
-                "Extinguishers and Ansul — annually.",
-                "Delime the water heater — annually.",
-              ],
-            },
           ],
         },
         {
@@ -194,7 +166,7 @@ export const dailyCourse: Course = {
           minutes: 8,
           kind: "quiz",
           pass: 86,
-          blocks: [{ type: "p", text: "Sixteen questions from the daily procedures packet. You need 14 of 16." }],
+          blocks: [{ type: "p", text: "Fourteen questions from the daily procedures packet. You need 12 of 14." }],
           questions: [
             q("dy-q1", "A manager posts 10 AM to 8 PM, five days. What does the guide actually require?", ["Lunch only, if sales are soft", "Whatever the manager prefers that week", "11 AM to 9 PM, seven days strongly preferred", "10 AM to 9 PM, closed Monday"], 2, "11 to 9. Seven days unless demand or the landlord says otherwise."),
             q("dy-q2", "Which list is an approved close or early close, not a guess?", ["Super Bowl Sunday, and every Monday in January", "Memorial Day only", "The day before any holiday, manager’s choice", "Christmas Eve early, Christmas Day closed, New Year’s Eve early, New Year’s Day, Easter, Thanksgiving, and the 4th of July"], 3, "Those days are the list. Not Super Bowl, and not every Monday."),
@@ -207,8 +179,6 @@ export const dailyCourse: Course = {
             q("dy-q9", "A DoorDash guest calls the store angry. You:", ["Run H.E.A.T. in the store. The refund goes through that platform.", "Hand them cash from the drawer.", "Ignore it. The app owns the guest.", "Remake it with no ticket lookup."], 0, "H.E.A.T. still happens here. The money moves on the platform. Watch for scams."),
             q("dy-q10", "An hourly employee has a phone in their pocket on the line, on silent. That is:", ["Fine, if it stays silent", "Fine in the restroom, so the line is the same", "A sanitation violation. Phones stay in cubbies or lockers.", "Fine when the rush is over"], 2, "Cubbies or lockers. Not on the line, silent or not."),
             q("dy-q11", "A guest says the chicken made them sick. Who handles it, and how?", ["Any cashier. Apologize and admit the food was the cause.", "A manager only. Do not admit fault. Document, follow up in 24 hours, isolate the food, notify headquarters.", "Nobody until next week’s manager meeting.", "Talk it through at the fryer and throw the batch out quietly."], 1, "Managers only. No speculation. Headquarters immediately."),
-            q("dy-q12", "Chicken hits the oil and the crust looks thin. The guide says:", ["Shake now, before it sets wrong.", "Bald spots are acceptable if the color is right.", "Press it back into the dredge and refry.", "No bald spots. Wait about 2 minutes so the crust sets, then shake."], 3, "Bald spots are the cardinal sin. An early shake knocks the crust off."),
-            q("dy-q13", "Sandwiches are going in the bag, with a can or bottle. How do they ride?", ["Upright, and the drinks go in a separate small bag", "On their side, drinks in the same bag", "Upside down so the bun stays soft", "Loose, handed to the guest"], 0, "Upright. Drinks in their own small bag."),
             q("dy-q14", "A $25 gift card is sold at lunch. Where does that money live?", ["In today’s drawer. The store keeps it.", "A personal account until it is redeemed", "Through E-Card Systems. The store is paid weekly when the card is redeemed.", "It comes out of the drawer with no system."], 2, "Corporate hold. Weekly pay on redemptions. Comps come from the back end."),
             q("dy-q15", "Approved third-party delivery is:", ["DoorDash only", "Toast delivery", "Whichever app the guest used, plus cash from the drawer", "DoorDash, Uber Eats, and Grubhub"], 3, "DoorDash, Uber Eats, and Grubhub. Not DoorDash only. Not Toast delivery."),
             q("dy-q16", "A Grubhub guest wants the problem item refunded. You:", ["Run H.E.A.T. in the store. The refund goes through Grubhub.", "Hand them cash from the drawer.", "Ignore it. The app owns the guest.", "Remake it with no ticket lookup."], 0, "Run H.E.A.T. here. The refund goes through Grubhub. Do not refund cash from the drawer."),
