@@ -84,13 +84,13 @@ export const recipeCourse: Course = {
             {
               type: "list",
               items: [
-                "Pulsed Sysco kosher salt \u2014 228 g.",
-                "Granulated garlic \u2014 340 g.",
-                "Granulated onion \u2014 304 g.",
-                "Spanish paprika, never smoked \u2014 104 g.",
-                "Celery seed \u2014 52 g.",
-                "Caf\u00e9 black pepper \u2014 58 g.",
-                "AP flour \u2014 7,944 g.",
+                "Pulsed Sysco kosher salt — 228 g.",
+                "Granulated garlic — 340 g.",
+                "Granulated onion — 304 g.",
+                "Spanish paprika, never smoked — 104 g.",
+                "Celery seed — 52 g.",
+                "Café black pepper — 58 g.",
+                "AP flour — 7,944 g.",
               ],
             },
             {
@@ -133,7 +133,7 @@ export const recipeCourse: Course = {
             },
             {
               type: "p",
-              text: "350\u00b0 fryer",
+              text: "350° fryer",
             },
             {
               type: "list",
@@ -146,7 +146,7 @@ export const recipeCourse: Course = {
             },
             {
               type: "p",
-              text: "330\u00b0 fryer",
+              text: "330° fryer",
             },
             {
               type: "list",
@@ -176,7 +176,7 @@ export const recipeCourse: Course = {
             {
               type: "list",
               items: [
-                "Cornbread at 350\u00b0: 12 minutes, turn, 12 minutes.",
+                "Cornbread at 350°: 12 minutes, turn, 12 minutes.",
                 "Minis: 8 minutes, turn, 8 minutes.",
                 "A #12 green scoop fills the cups about 75%.",
                 "Store cookies: 175 g balls, 8 per tray, 10 minutes, bang the tray, 10 more.",
@@ -187,13 +187,13 @@ export const recipeCourse: Course = {
             {
               type: "list",
               items: [
-                "Green #12 \u2014 coleslaw, cornbread, banana pudding, whipped cream. Blue #16 is retired.",
-                "Black #30 \u2014 honey butter, mini cornbread, the 48 oz pudding cap.",
-                "Red #24 \u2014 sauces in 2 oz cups.",
+                "Green #12 — coleslaw, cornbread, banana pudding, whipped cream. Blue #16 is retired.",
+                "Black #30 — honey butter, mini cornbread, the 48 oz pudding cap.",
+                "Red #24 — sauces in 2 oz cups.",
                 "Pimento kit: no cheddar in the kit. Add 4,125 g shredded cheddar when you mix.",
                 "Ranch: buttermilk stays out of the kit. Blend the kit, then add buttermilk.",
                 "Honey mustard: honey stays out of the fridge kit.",
-                "Nashville oil: 1 gallon vegetable oil to 190\u00b0, kill the heat, stir in 290 g spice, cool before use.",
+                "Nashville oil: 1 gallon vegetable oil to 190°, kill the heat, stir in 290 g spice, cool before use.",
                 "Honey Hot: 1 gallon honey plus 3 gallons Louisiana Supreme. Whisk or immersion blender. Not a countertop blender.",
               ],
             },
@@ -235,9 +235,9 @@ export const recipeCourse: Course = {
             q("rc-q5", "The dredge calls for paprika. Someone grabs the smoked tin. That is:", ["Correct. Smoked is the dredge paprika.", "Fine. Spanish and smoked are interchangeable.", "Wrong for the dredge. Spanish only. Smoked belongs in the BBQ spice mix.", "Right if you leave paprika out of the BBQ mix"], 2, "Never smoked in the dredge. BBQ spice is the mix that also uses smoked."),
             q("rc-q6", "Which miss is the cardinal sin on the fryer?", ["Sifting the dredge again", "A bald spot", "Waiting about 2 minutes before the shake", "Using timer 1"], 1, "No bald spots. Waiting to shake is correct, not the sin."),
             q("rc-q7", "The basket just hit the oil. When do you shake?", ["After about 2 minutes, so the crust can set", "Immediately, so the pieces do not stick", "Only when the timer ends", "Never. Shaking blows the crust off."], 0, "An early shake knocks the crust off."),
-            q("rc-q8", "350\u00b0 fryer, tenders. Which card is that drop, not a different product?", ["15 per basket, 12:00", "40 per basket, 6:30", "6 per basket, 9:00", "Half a bag, 4:30"], 1, "40 tenders, 6:30, timer 1. 12:00 is wings. 4:30 is tots. 9:00 is the 330\u00b0 breast."),
-            q("rc-q9", "330\u00b0 fryer, whole wings. Do not grab the drum card.", ["40 per basket, 6:30", "20 per basket, 15:00", "6 per basket, 7:30", "15 per basket, 12:00"], 3, "15 wings, 12 minutes, timer 2. 20 at 15:00 is drums."),
-            q("rc-q10", "A full pan of cornbread at 350\u00b0. Minis are the shorter cycle.", ["8 minutes flat, no turn", "10 minutes, bang the tray, 10 more", "12 minutes, turn, 12 minutes", "Until the top cracks"], 2, "Full pan: 12, rotate, 12. Minis are 8 and 8. The bang is cookies."),
+            q("rc-q8", "350° fryer, tenders. Which card is that drop, not a different product?", ["15 per basket, 12:00", "40 per basket, 6:30", "6 per basket, 9:00", "Half a bag, 4:30"], 1, "40 tenders, 6:30, timer 1. 12:00 is wings. 4:30 is tots. 9:00 is the 330° breast."),
+            q("rc-q9", "330° fryer, whole wings. Do not grab the drum card.", ["40 per basket, 6:30", "20 per basket, 15:00", "6 per basket, 7:30", "15 per basket, 12:00"], 3, "15 wings, 12 minutes, timer 2. 20 at 15:00 is drums."),
+            q("rc-q10", "A full pan of cornbread at 350°. Minis are the shorter cycle.", ["8 minutes flat, no turn", "10 minutes, bang the tray, 10 more", "12 minutes, turn, 12 minutes", "Until the top cracks"], 2, "Full pan: 12, rotate, 12. Minis are 8 and 8. The bang is cookies."),
             q("rc-q11", "Honey butter is going together. The butter should be:", ["Softened, not melted", "Melted hot", "Brown butter", "Oil, if the butter is cold"], 0, "Softened. Melted butter breaks the mix."),
             q("rc-q12", "You need coleslaw, a cornbread cup, banana pudding, and whipped cream. Which scoop?", ["Red #24", "Black #30", "Green #12", "Blue #16"], 2, "Green #12. Blue #16 is retired. Black #30 is honey butter, minis, and the pudding cap. Red #24 is the 2 oz sauce cup."),
             q("rc-q13", "A guest asks if BBQ sauce is a problem for a fish allergy. You say:", ["No. It is gluten-free, so it is clear.", "No. The only allergen in it is dairy.", "Yes. It has peanuts.", "Yes. Worcestershire brings anchovy, which is fish."], 3, "Fish. Say so."),
