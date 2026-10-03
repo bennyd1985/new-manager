@@ -96,14 +96,14 @@ export const foodSafetyCourse: Course = {
             },
             {
               type: "p",
-              text: "Coolers hold cold food cold. Hot holding stays hot. This course does not give you a temperature to post. Do not invent one, and do not borrow a fryer number from another kitchen.",
+              text: "Fryers are 330°F and 350°F. Dark meat must be fried at 330°F because at 350°F the skin would burn before it was fully cooked. Everything else can be fried at 350°F. Everything except tater tots can also be fried at 330°F with different cook times. Do not invent cook times.",
             },
             {
               type: "steps",
               items: [
                 "Sift the dredge.",
                 "Do not overcrowd the frying basket.",
-                "Those are line standards, not a fry chart. No time, weight, or temperature is added here.",
+                "Those are line standards, not a cook-time chart. Do not invent cook times.",
               ],
             },
             {
@@ -264,27 +264,27 @@ export const foodSafetyCourse: Course = {
             ),
             q(
               "fs-q9",
-              "Which fryer habit matches the standard, without inventing a chart?",
+              "Which fryer standard matches this course?",
               [
-                "Sift the dredge. Do not overcrowd the frying basket. Do not add a temperature this course did not give you.",
-                "Pack the basket until the oil stops moving.",
-                "Skip the sift when the dredge looks clumpy.",
-                "Post a fryer temperature from another kitchen.",
+                "Dark meat is fried at 330°F because at 350°F the skin would burn before it was fully cooked. Everything else can be fried at 350°F. Everything except tater tots can also be fried at 330°F with different cook times.",
+                "Fry dark meat at 350°F so the skin cooks before the meat.",
+                "Use 330°F only for tater tots; all chicken must be fried at 350°F.",
+                "Choose a fryer temperature and cook time from another kitchen.",
               ],
               0,
-              "Sift the dredge and do not overcrowd the basket. No fryer temperature is stated here.",
+              "Dark meat must be fried at 330°F because at 350°F the skin would burn before it was fully cooked. Everything else can be fried at 350°F. Everything except tater tots can also be fried at 330°F with different cook times; do not invent the cook times.",
             ),
             q(
               "fs-q10",
-              "Coolers and hot holding. What do you teach, with no new number?",
+              "Coolers and hot holding. What do you teach, without inventing a cooling or hot-holding number?",
               [
                 "Cold food can sit out if the lid is on.",
-                "Coolers hold cold food cold. Hot holding stays hot. Do not invent a temperature for this course.",
+                "Coolers hold cold food cold. Hot holding stays hot. Do not invent a cooling or hot-holding temperature for this course.",
                 "Hot holding can cool off if the chicken was just fried.",
                 "A number remembered from another job is now the rule here.",
               ],
               1,
-              "Cold stays cold. Hot stays hot. This course does not add a temperature.",
+              "Cold stays cold. Hot stays hot. This course does not add a cooling or hot-holding temperature.",
             ),
             q(
               "fs-q11",
