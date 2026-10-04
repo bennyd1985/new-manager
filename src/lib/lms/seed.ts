@@ -2,10 +2,11 @@ import { dailyCourse } from "./courses/daily";
 import { foodSafetyCourse } from "./courses/food";
 import { menuCourse } from "./courses/menu";
 import { recipeCourse } from "./courses/recipe";
+import { storeMaterialsCourse } from "./courses/store-materials";
 import { valuesCourse } from "./courses/values";
 import type { Course } from "./types";
 
-export const SEED_IDS = ["lh-values", "lh-safety", "lh-menu", "lh-daily", "lh-recipe"] as const;
+export const SEED_IDS = ["lh-values", "lh-safety", "lh-menu", "lh-daily", "lh-recipe", "lh-store"] as const;
 
 export const seedCourses: Course[] = [
   valuesCourse,
@@ -13,4 +14,5 @@ export const seedCourses: Course[] = [
   menuCourse,
   dailyCourse,
   recipeCourse,
+  storeMaterialsCourse,
 ];
