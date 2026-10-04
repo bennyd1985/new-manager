@@ -277,7 +277,7 @@ export const useLms = create<LmsState>()(
     {
       name: "linebook",
       skipHydration: true,
-      version: 14,
+      version: 15,
       partialize: (state) => ({
         courses: state.courses,
         name: state.name,
@@ -310,9 +310,13 @@ export const useLms = create<LmsState>()(
         }
         let courses = state.courses ?? [];
         if (version < 3) courses = courses.filter((course) => course.id !== "lh-preopen");
-        if (version < 14) {
+        if (version < 15) {
           const keep = courses.filter(
-            (course) => !seedIds.has(course.id) && course.id !== "lh-preopen" && course.id !== "lh-order",
+            (course) =>
+              !seedIds.has(course.id) &&
+              course.id !== "lh-preopen" &&
+              course.id !== "lh-order" &&
+              course.id !== "lh-recipe",
           );
           courses = [...structuredClone(seedCourses), ...keep];
         }
