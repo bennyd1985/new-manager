@@ -97,7 +97,7 @@ export const storeMaterialsCourse: Course = {
               type: "list",
               items: [
                 "POS terminals and KDS screens are on, logged in, and working.",
-                "Delivery is live and accepting orders: DoorDash, Uber Eats, and Grubhub. Not DoorDash only. Not Toast delivery.",
+                "Delivery and online ordering platforms the store uses are live and accepting orders. A store is not required to be on DoorDash, Uber Eats, and Grubhub.",
                 "The menu is accurate. Counts are updated. Out-of-stocks are marked. Modifiers are checked.",
                 "The cash drawer is built. The starting bank is verified.",
                 "The dining room and bathrooms are clean, stocked, and guest-ready.",
@@ -324,15 +324,15 @@ export const storeMaterialsCourse: Course = {
             ),
             q(
               "sm-q5",
-              "Before the doors open, which delivery platforms must be live?",
+              "Before the doors open, what do you hold on delivery?",
               [
-                "DoorDash only.",
-                "Toast delivery.",
-                "Whichever app was left on from yesterday.",
-                "DoorDash, Uber Eats, and Grubhub.",
+                "Every store must be live on DoorDash, Uber Eats, and Grubhub.",
+                "The delivery and online ordering platforms that store uses are live and accepting orders. A store is not required to be on all three.",
+                "Toast delivery is required.",
+                "Whichever app was left on from yesterday is fine.",
               ],
-              3,
-              "Approved delivery is DoorDash, Uber Eats, and Grubhub, not DoorDash only and not Toast delivery.",
+              1,
+              "The platforms that store uses are live and accepting orders. A store is not required to be on all three.",
             ),
             q(
               "sm-q6",
