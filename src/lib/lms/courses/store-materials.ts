@@ -27,7 +27,7 @@ export const storeMaterialsCourse: Course = {
             {
               type: "warn",
               title: "Dark meat is 330°F only",
-              text: "Wings, drums, and thighs are fried only at 330°F. At 350°F the skin burns before the meat is fully cooked.",
+              text: "Drums and thighs are dark meat, and they are fried only at 330°F. At 350°F the skin burns before the meat is fully cooked. Wings are bone-in, but they are not dark meat.",
             },
             {
               type: "p",
@@ -276,15 +276,15 @@ export const storeMaterialsCourse: Course = {
           questions: [
             q(
               "sm-q1",
-              "Wings, drums, and thighs. Which fryer standard do you hold?",
+              "Drums and thighs. Which fryer standard do you hold?",
               [
-                "Dark meat is fried only at 330°F. At 350°F the skin burns before the meat is fully cooked.",
+                "Drums and thighs are dark meat, fried only at 330°F. Wings are bone-in, but they are not dark meat.",
                 "Dark meat is fried only at 350°F so the skin colors first.",
                 "Dark meat can use either fryer. The color is the only check.",
                 "Dark meat can go in any fryer, as long as one fryer in the store is set to 330°F.",
               ],
               0,
-              "Dark meat is fried only at 330°F, because at 350°F the skin burns before the meat is fully cooked.",
+              "Drums and thighs are fried only at 330°F. Wings are bone-in, but they are not dark meat.",
             ),
             q(
               "sm-q2",
