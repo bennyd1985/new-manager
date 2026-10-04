@@ -14,7 +14,7 @@ export const storeMaterialsCourse: Course = {
       lessons: [
         {
           id: "lh-store-fry",
-          title: "Two fryers",
+          title: "Fryer temperatures",
           minutes: 5,
           kind: "read",
           pass: 80,
@@ -22,7 +22,7 @@ export const storeMaterialsCourse: Course = {
           blocks: [
             {
               type: "p",
-              text: "The store runs two fryers. They run at 330°F and 350°F.",
+              text: "Every store has at least four fryers, set to two temperatures: 330°F and 350°F. A store with four fryers keeps one at 330°F. A store with five fryers keeps two at 330°F.",
             },
             {
               type: "warn",
@@ -77,7 +77,7 @@ export const storeMaterialsCourse: Course = {
             {
               type: "warn",
               title: "The salt is not a swap",
-              text: "Sysco kosher salt is the salt in the brine. Crystal size changes the recipe. The formula stays in the September 2026 recipe book. Do not paste it here, and do not guess a weight.",
+              text: "Sysco kosher salt is the salt in the brine. Crystal size changes the recipe. The formula stays in the September 2026 recipe book.",
             },
           ],
         },
@@ -256,12 +256,8 @@ export const storeMaterialsCourse: Course = {
             },
             {
               type: "warn",
-              title: "Monthly boil-out wins",
-              text: "Boil out every fryer at least once a month. Write the name and date on the yearly tracker. Start a new sheet each year. A cleaning list that says every two months does not override that monthly minimum.",
-            },
-            {
-              type: "p",
-              text: "Sysco customer care is the first call: 1-800-797-2627, customer@sysco.com. The Who to Contact sheet lists Central hours: weekdays 6 AM to 10 PM, Saturday 7 AM to 8 PM, Sunday 9 AM to 10 PM.",
+              title: "Monthly boil-out",
+              text: "Boil out every fryer at least once a month. Write the name and date on the yearly tracker. Start a new sheet each year.",
             },
           ],
         },
@@ -285,14 +281,14 @@ export const storeMaterialsCourse: Course = {
                 "Dark meat is fried only at 330°F. At 350°F the skin burns before the meat is fully cooked.",
                 "Dark meat is fried only at 350°F so the skin colors first.",
                 "Dark meat can use either fryer. The color is the only check.",
-                "Dark meat waits for a third fryer.",
+                "Dark meat can go in any fryer, as long as one fryer in the store is set to 330°F.",
               ],
               0,
               "Dark meat is fried only at 330°F, because at 350°F the skin burns before the meat is fully cooked.",
             ),
             q(
               "sm-q2",
-              "Tater tots and the two fryer temperatures. Which line is right?",
+              "Tater tots and the two temperatures. Which line is right?",
               [
                 "Tots are cooked at 330°F. Chicken is cooked only at 350°F.",
                 "Everything, including tots, is cooked at both temperatures with the same time.",
@@ -403,24 +399,24 @@ export const storeMaterialsCourse: Course = {
               "Oil and the boil-out. What do you hold?",
               [
                 "Change the oil on a fixed calendar date. Boil out every two months, because a cleaning list says so.",
-                "The manager calls the oil change from volume, quality, and SuperSorb, not a date. Boil out at least monthly. That monthly minimum overrides a cleaning list that says every two months.",
+                "The manager calls the oil change from volume, quality, and SuperSorb, not a date. Boil out every fryer at least once a month, and write the name and date on the yearly tracker.",
                 "Boil out only when the year is over. Skip the tracker.",
                 "Change the oil every slow day, and skip SuperSorb.",
               ],
               1,
-              "The manager calls the oil from volume, quality, and SuperSorb, and a monthly boil-out overrides a cleaning list that says every two months.",
+              "The manager calls the oil from volume, quality, and SuperSorb, and every fryer is boiled out at least once a month.",
             ),
             q(
               "sm-q12",
-              "A credit, a missing item, or product help. The first call is:",
+              "How many fryers are set to 330°F?",
               [
-                "Whoever is written on the building list that morning.",
-                "The account manager, before customer care.",
-                "Sysco customer care: 1-800-797-2627, customer@sysco.com.",
-                "A vendor remembered from another brand.",
+                "Every store has two fryers, one at each temperature.",
+                "A store with four fryers keeps one at 330°F. A store with five keeps two at 330°F.",
+                "A store with four fryers keeps two at 330°F. A store with five keeps one.",
+                "Every fryer in the store is set to 330°F.",
               ],
-              2,
-              "Sysco customer care is the first call, at 1-800-797-2627 or customer@sysco.com.",
+              1,
+              "Four fryers means one at 330°F. Five fryers means two at 330°F.",
             ),
           ],
         },
