@@ -75,7 +75,7 @@ export const dailyCourse: Course = {
             },
             {
               type: "p",
-              text: "Approved third-party delivery is DoorDash, Uber Eats, and Grubhub. Not DoorDash only. Not Toast delivery.",
+              text: "The delivery and online ordering platforms the store uses are live and accepting orders. A store is not required to be on DoorDash, Uber Eats, and Grubhub.",
             },
             {
               type: "list",
@@ -180,7 +180,7 @@ export const dailyCourse: Course = {
             q("dy-q10", "An hourly employee has a phone in their pocket on the line, on silent. That is:", ["Fine, if it stays silent", "Fine in the restroom, so the line is the same", "A sanitation violation. Phones stay in cubbies or lockers.", "Fine when the rush is over"], 2, "Cubbies or lockers. Not on the line, silent or not."),
             q("dy-q11", "A guest says the chicken made them sick. Who handles it, and how?", ["Any cashier. Apologize and admit the food was the cause.", "A manager only. Do not admit fault. Document, follow up in 24 hours, isolate the food, notify headquarters.", "Nobody until next week’s manager meeting.", "Talk it through at the fryer and throw the batch out quietly."], 1, "Managers only. No speculation. Headquarters immediately."),
             q("dy-q14", "A $25 gift card is sold at lunch. Where does that money live?", ["In today’s drawer. The store keeps it.", "A personal account until it is redeemed", "Through E-Card Systems. The store is paid weekly when the card is redeemed.", "It comes out of the drawer with no system."], 2, "Corporate hold. Weekly pay on redemptions. Comps come from the back end."),
-            q("dy-q15", "Approved third-party delivery is:", ["DoorDash only", "Toast delivery", "Whichever app the guest used, plus cash from the drawer", "DoorDash, Uber Eats, and Grubhub"], 3, "DoorDash, Uber Eats, and Grubhub. Not DoorDash only. Not Toast delivery."),
+            q("dy-q15", "Before service, what do you hold on third-party delivery?", ["Every store must be on DoorDash, Uber Eats, and Grubhub.", "The platforms that store uses are live and accepting orders. A store is not required to be on all three.", "Toast delivery is required.", "Whichever app was left on from yesterday is fine."], 1, "The platforms that store uses are live. A store is not required to be on all three."),
             q("dy-q16", "A Grubhub guest wants the problem item refunded. You:", ["Run H.E.A.T. in the store. The refund goes through Grubhub.", "Hand them cash from the drawer.", "Ignore it. The app owns the guest.", "Remake it with no ticket lookup."], 0, "Run H.E.A.T. here. The refund goes through Grubhub. Do not refund cash from the drawer."),
           ],
         },
